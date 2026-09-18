@@ -1,0 +1,17 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.000000" height="32.000000" fill="none">
+	<rect id="Frame" width="32.000000" height="32.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<path id="Vector" d="M0 0L32 0L32 32L0 32L0 0Z" fill-rule="nonzero" />
+	<g id="Group 139">
+		<path id="Vector" d="M0 0L6.66658 0" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="matrix(0,1,-1,0,16,24.333)" />
+		<path id="Vector" d="M12.6665 29.3328L19.3331 25.9995" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+		<path id="Vector" d="M12.6665 25.9995L19.3331 29.3328" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+		<path id="Vector" d="M0 0L6.66658 0" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="matrix(0,1,-1,0,4.3335,24.333)" />
+		<path id="Vector" d="M1 29.3328L7.66664 25.9995" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+		<path id="Vector" d="M1 25.9995L7.66664 29.3328" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+		<path id="Vector" d="M0 0L6.66658 0" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="matrix(0,1,-1,0,27.6665,24.333)" />
+		<path id="Vector" d="M24.3333 29.3328L30.9999 25.9995" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+		<path id="Vector" d="M24.3333 25.9995L30.9999 29.3328" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+		<path id="Vector" d="M12.4645 9.53542C13.4021 10.4731 14.6739 10.9999 16 10.9999C17.3261 10.9999 18.5978 10.4731 19.5355 9.53542C20.4732 8.59775 21 7.326 21 5.99993C21 4.67387 20.4732 3.40212 19.5355 2.46445C18.5978 1.52678 17.3261 1 16 1C14.6739 1 13.4021 1.52678 12.4645 2.46445C11.5268 3.40212 11 4.67387 11 5.99993C11 7.326 11.5268 8.59775 12.4645 9.53542Z" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+		<path id="Vector" d="M7.6665 19.3333C7.6665 18.4492 8.01769 17.6014 8.64281 16.9763C9.26793 16.3512 10.1158 16 10.9998 16L20.9998 16C21.8838 16 22.7317 16.3512 23.3568 16.9763C23.9819 17.6014 24.3331 18.4492 24.3331 19.3333" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+	</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.000000" height="50.000000" fill="none">
+	<rect id="Frame" width="50.000000" height="50.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<path id="Vector" d="M0 0L50 0L50 50L0 50L0 0Z" fill-rule="nonzero" />
+	<g id="Group 229">
+		<path id="Vector" d="M21.2301 28.7713C22.2303 29.7715 23.5868 30.3334 25.0013 30.3334C26.4158 30.3334 27.7723 29.7715 28.7725 28.7713C29.7727 27.7711 30.3346 26.4146 30.3346 25.0001C30.3346 23.5856 29.7727 22.229 28.7725 21.2288C27.7723 20.2287 26.4158 19.6667 25.0013 19.6667C23.5868 19.6667 22.2303 20.2287 21.2301 21.2288C20.2299 22.229 19.668 23.5856 19.668 25.0001C19.668 26.4146 20.2299 27.7711 21.2301 28.7713Z" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+		<path id="Vector" d="M32.9995 33L34.3328 33C42.4341 33 48.9995 29.4187 48.9995 25C48.9995 20.5813 42.4341 17 34.3328 17C29.4368 17 25.1008 18.3067 22.4395 20.32" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+		<path id="Vector" d="M17 17L15.6667 17C7.56533 17 1 20.5813 1 25C1 29.4187 7.56533 33 15.6667 33C20.584 33 24.936 31.68 27.5973 29.6533" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+		<path id="Vector" d="M33 17L33 15.6667C33 7.56533 29.4187 1 25 1C20.5813 1 17 7.56533 17 15.6667C17 20.5547 18.3067 24.8853 20.3093 27.5493" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+		<path id="Vector" d="M17 33L17 34.3333C17 42.4347 20.5813 49 25 49C29.4187 49 33 42.4347 33 34.3333C33 29.4213 31.6827 25.0747 29.6613 22.4133" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.000000" />
+	</g>
+</svg>
