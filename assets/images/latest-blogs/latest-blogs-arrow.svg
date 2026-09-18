@@ -1,0 +1,7 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" fill="none">
+	<rect id="Frame" width="24.000000" height="24.000000" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+	<path id="Vector" d="M0 0L24 0L24 24L0 24L0 0Z" fill-rule="nonzero" />
+	<path id="Vector" d="M8.46387 15.536L17.9999 6" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+	<path id="Vector" d="M18 10L18 6L14 6" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+	<path id="Vector" d="M7.76497 15.138C7.52096 15.0331 7.25852 14.978 6.99296 14.9757C6.72741 14.9734 6.46405 15.024 6.21825 15.1245C5.97246 15.2251 5.74916 15.3736 5.56137 15.5614C5.37359 15.7492 5.22508 15.9725 5.12452 16.2183C5.02396 16.464 4.97335 16.7274 4.97566 16.993C4.97797 17.2585 5.03314 17.521 5.13796 17.765C5.24278 18.009 5.39514 18.2297 5.58616 18.4142C5.96337 18.7785 6.46857 18.9801 6.99296 18.9755C7.51736 18.971 8.01898 18.7606 8.3898 18.3898C8.76062 18.019 8.97095 17.5174 8.97551 16.993C8.98007 16.4686 8.77848 15.9634 8.41416 15.5862C8.22967 15.3951 8.00898 15.2428 7.76497 15.138Z" fill-rule="nonzero" stroke="rgb(197,133,58)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+</svg>
