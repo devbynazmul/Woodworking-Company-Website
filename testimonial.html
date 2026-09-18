@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Rakshak - Carpentry Service</title>
+    <link rel="icon" href="assets/images/header/favicon.svg">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="assets/css/magiccursor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fancybox.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+</head>
+<body>
+    <!-- ====================================== Preloader ===================================== -->
+    <div id="preloader"
+        class="position-fixed top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center">
+        <div class="wood-circle position-relative d-flex flex-column align-items-center justify-content-center">
+            <div class="saw-blade position-absolute"></div>
+            <img src="assets/images/header/favicon.svg" alt="favicon">
+        </div>
+    </div>
+    <div class="menu-overlay position-fixed top-0 start-0 w-100 h-100"></div>
+    <!-- ====================================== Header ===================================== -->
+    <header class="top-navbar position-fixed top-0 start-0 end-0 d-flex align-items-center justify-content-between">
+        <a href="index1.html" class="header-logo">
+            <img src="assets/images/header/header-logo.svg" alt="header-logo">
+        </a>
+        <a href="javascript:void(0);" class="menu-toggle">
+            <img src="assets/images/header/menu-toggle.svg" alt="menu-toggle">
+        </a>
+        <div class="mobile-nav d-flex align-items-center">
+            <div class="mobile-nav-top-content">
+                <div class="menu-toggle-logo-close-icon">
+                    <a href="index1.html" class="header-logo">
+                        <img src="assets/images/header/menu-header-logo.svg" alt="menu-header-logo">
+                    </a>
+                    <img src="assets/images/header/close-icon.svg" alt="close-icon" class="close-icon">
+                </div>
+                <ul class="menu ps-0 mb-0 d-flex align-items-center">
+                    <li class="dropdown position-relative">
+                        <a href="javascript:void(0);" class="d-flex align-items-center">
+                            Home
+                            <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon">
+                        </a>
+                        <ul class="submenu ps-0">
+                            <li><a href="index1.html">Home 1 - Slider</a></li>
+                            <li><a href="index2.html">Home 2 - Video</a></li>
+                            <li><a href="index3.html">Home 3 - Solid</a></li>
+                        </ul>
+                    </li>
+                    <li class="dots-circle-li">
+                        <div class="dots-circle"></div>
+                    </li>
+                    <li class="dropdown position-relative">
+                        <a href="javascript:void(0);" class="d-flex align-items-center">
+                            Pages
+                            <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon">
+                        </a>
+                        <ul class="submenu ps-0">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="our-team.html">Our Team</a></li>
+                            <li><a href="single-team.html">Team Details</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="testimonial.html">Testimonials</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="pricing-plan.html">Pricing Plan</a></li>
+                            <li><a href="working-process.html">Working Process</a></li>
+                            <li><a href="our-clients.html">Our Clients</a></li>
+                            <li><a href="get-your-quote.html">Get Your Quote</a></li>
+                            <li><a href="error.html">404 Error</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li class="dots-circle-li">
+                        <div class="dots-circle"></div>
+                    </li>
+                    <li class="dropdown position-relative">
+                        <a href="javascript:void(0);" class="d-flex align-items-center">
+                            Services
+                            <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon">
+                        </a>
+                        <ul class="submenu ps-0">
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="custom-carpentry.html">Custom Carpentry</a></li>
+                            <li><a href="wooden-furniture.html">Wooden Furniture</a></li>
+                            <li><a href="house-renovation.html">House Renovation</a></li>
+                            <li><a href="wooden-floor.html">Wooden Floor</a></li>
+                            <li><a href="custom-cabin.html">Custom Cabin</a></li>
+                            <li><a href="wood-utilities.html">Wood Utilities</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dots-circle-li">
+                        <div class="dots-circle"></div>
+                    </li>
+                    <li class="dropdown position-relative">
+                        <a href="javascript:void(0);" class="d-flex align-items-center">
+                            Projects
+                            <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon">
+                        </a>
+                        <ul class="submenu ps-0">
+                            <li class="dropdown-sub position-relative">
+                                <a href="javascript:void(0);"
+                                    class="dropdown-sub-link d-flex align-items-center justify-content-between">
+                                    Project
+                                    <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon"
+                                        class="submenu-arrow">
+                                </a>
+                                <ul class="submenu submenu-right ps-0">
+                                    <li><a href="project1.html">Project 1</a></li>
+                                    <li><a href="project2.html">Project 2</a></li>
+                                    <li><a href="project3.html">Project 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-sub position-relative">
+                                <a href="javascript:void(0);"
+                                    class="dropdown-sub-link d-flex align-items-center justify-content-between">
+                                    Single Project
+                                    <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon"
+                                        class="submenu-arrow">
+                                </a>
+                                <ul class="submenu submenu-right ps-0">
+                                    <li><a href="single-project1.html">Single Project 1</a></li>
+                                    <li><a href="single-project2.html">Single Project 2</a></li>
+                                    <li><a href="single-project3.html">Single Project 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dots-circle-li">
+                        <div class="dots-circle"></div>
+                    </li>
+                    <li class="dropdown position-relative">
+                        <a href="javascript:void(0);" class="d-flex align-items-center">
+                            Blogs
+                            <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon">
+                        </a>
+                        <ul class="submenu ps-0">
+                            <li class="dropdown-sub position-relative">
+                                <a href="javascript:void(0);"
+                                    class="dropdown-sub-link d-flex align-items-center justify-content-between">
+                                    Blog
+                                    <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon"
+                                        class="submenu-arrow">
+                                </a>
+                                <ul class="submenu submenu-right ps-0">
+                                    <li><a href="blog1.html">Blog 1</a></li>
+                                    <li><a href="blog2.html">Blog 2</a></li>
+                                    <li><a href="blog3.html">Blog 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-sub position-relative">
+                                <a href="javascript:void(0);"
+                                    class="dropdown-sub-link d-flex align-items-center justify-content-between">
+                                    Single Blog
+                                    <img src="assets/images/header/arrow-icon.svg" alt="arrow-icon"
+                                        class="submenu-arrow">
+                                </a>
+                                <ul class="submenu submenu-right ps-0">
+                                    <li><a href="single-blog1.html">Single Blog 1</a></li>
+                                    <li><a href="single-blog2.html">Single Blog 2</a></li>
+                                    <li><a href="single-blog3.html">Single Blog 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dots-circle-li">
+                        <div class="dots-circle"></div>
+                    </li>
+                    <li class="dropdown position-relative">
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-nav-bottom-content">
+                <a href="get-your-quote.html"
+                    class="get-free-quote-btn responsive-get-free-quote-btn position-relative">Get Free
+                    Quote</a>
+            </div>
+        </div>
+        <a href="get-your-quote.html" class="get-free-quote-btn desktop-get-free-quote-btn position-relative">
+            <span class="btn-main position-absolute start-0 w-100">
+                <span class="btn-text one d-flex align-items-center justify-content-center">Get Free Quote</span>
+                <span class="btn-text two d-flex align-items-center justify-content-center">Get Free Quote</span>
+            </span>
+        </a>
+    </header>
+    <!-- ====================================== Common Section ===================================== -->
+    <section class="common-section">
+        <div class="common-wrapper d-flex flex-column align-items-center align-items-lg-start">
+            <div class="common-section-wrapper d-flex align-items-center fade_up">
+                <img src="assets/images/common-section/wheel-icon.png" alt="wheel-icon">
+                <p class="mb-0 text-uppercase">Testimonials</p>
+                <img src="assets/images/common-section/wheel-icon.png" alt="wheel-icon">
+            </div>
+            <h1 class="mb-0 fade_down text-center text-lg-start" data-cursor="-opaque">Testimonials</h1>
+        </div>
+        <div class="container d-flex align-items-center justify-content-center justify-content-lg-end">
+            <div
+                class="common-section-link-container d-flex flex-wrap align-items-center justify-content-center flip_up">
+                <a href="index1.html" class="text-center">Home</a>
+                <div class="dash-line"></div>
+                <a href="testimonial.html" class="common-section-active-link text-center">Testimonials</a>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== Testimonial ===================================== -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="testimonial-grid-container">
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">“I would recommend practitioners at this center to everyone! They are great to
+                            work with and are excellent trainers. Thank you all!”</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person1.jpg"
+                                alt="our-testimonial-person1" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Ariana Green</h2>
+                            <p class="mb-0">8 May 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"Fantastic service and reliable support every time. They really take the time to
+                            understand our needs and offer effective solutions."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person2.jpg"
+                                alt="our-testimonial-person2" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Ethan Moore</h2>
+                            <p class="mb-0">1 May 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"Professional, efficient, and extremely helpful. They consistently deliver
+                            beyond our expectations with every request."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person3.jpg"
+                                alt="our-testimonial-person3" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Amanda Lee</h2>
+                            <p class="mb-0">28 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"We've relied on their expertise for over a year and they never disappoint.
+                            Their team is fast, efficient, and friendly."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person4.jpg"
+                                alt="our-testimonial-person4" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Michael Chen</h2>
+                            <p class="mb-0">23 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"Super friendly team and quick to respond to any issue. They’ve saved us time
+                            and stress more times than I can count."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person5.jpg"
+                                alt="our-testimonial-person5" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Lisa Nguyen</h2>
+                            <p class="mb-0">19 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"Dependable and consistent. We always get a clear explanation of the problem and
+                            a fast resolution without hidden costs."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person6.jpg"
+                                alt="our-testimonial-person6" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">David Rodriguez</h2>
+                            <p class="mb-0">15 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"They always go the extra mile. It’s rare to find a company that consistently
+                            delivers top-tier customer service like this."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person7.jpg"
+                                alt="our-testimonial-person7" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Sarah Thompson</h2>
+                            <p class="mb-0">12 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"Incredible support and very responsive team. We've never had an issue that
+                            wasn't solved quickly and professionally."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person8.jpg"
+                                alt="our-testimonial-person8" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Ryan Kim</h2>
+                            <p class="mb-0">9 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"From day one, we’ve been impressed with their reliability. Great communication
+                            and hassle-free maintenance every time."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person9.jpg"
+                                alt="our-testimonial-person9" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Emily Davis</h2>
+                            <p class="mb-0">6 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between hidden">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">“I would recommend practitioners at this center to everyone! They are great to
+                            work with and are excellent trainers. Thank you all!”</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person1.jpg"
+                                alt="our-testimonial-person1" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Ariana Green</h2>
+                            <p class="mb-0">8 May 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between hidden">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"Fantastic service and reliable support every time. They really take the time to
+                            understand our needs and offer effective solutions."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person2.jpg"
+                                alt="our-testimonial-person2" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Ethan Moore</h2>
+                            <p class="mb-0">1 May 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-grid-card d-flex flex-column justify-content-between hidden">
+                    <div class="testimonial-grid-card-top-content">
+                        <img src="assets/images/our-testimonial/our-testimonial-icon.svg" alt="our-testimonial-icon"
+                            class="our-testimonial-icon">
+                        <div class="testimonial-stars-container d-flex align-items-center">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                            <img src="assets/images/our-testimonial/testimonial-green-star.svg"
+                                alt="testimonial-green-star">
+                        </div>
+                        <p class="mb-0">"Professional, efficient, and extremely helpful. They consistently deliver
+                            beyond our expectations with every request."</p>
+                    </div>
+                    <div class="testimonial-grid-card-bottom-content d-flex align-items-center">
+                        <div class="testimonial-person-img">
+                            <img src="assets/images/our-testimonial/our-testimonial-person3.jpg"
+                                alt="our-testimonial-person3" class="rounded-circle">
+                        </div>
+                        <div class="testimonial-person-info d-flex flex-column">
+                            <h2 class="mb-0">Amanda Lee</h2>
+                            <p class="mb-0">28 April 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0);"
+                class="get-free-quote-btn position-relative load-more-btn d-flex align-items-center justify-content-center mx-auto">
+                <span class="btn-main position-absolute start-0 w-100">
+                    <span class="btn-text one d-flex align-items-center justify-content-center">Load More</span>
+                    <span class="btn-text two d-flex align-items-center justify-content-center">Load More</span>
+                </span>
+            </a>
+        </div>
+    </section>
+    <!-- ====================================== Infinite Scroll ===================================== -->
+    <section class="infinite-scroll-section d-flex flex-column">
+        <div class="infinite-scroll-wrapper position-relative w-100 overflow-hidden">
+            <div class="infinite-scroll-slider1 d-flex align-items-center" id="scrollContent">
+                <h2>Reasonable Price</h2>
+                <img src="assets/images/infinite-scroll/wheel.png" alt="wheel">
+                <h2>Design. Build. Deliver</h2>
+                <img src="assets/images/infinite-scroll/wheel.png" alt="wheel">
+                <h2>Premium Wood Collection</h2>
+                <img src="assets/images/infinite-scroll/wheel.png" alt="wheel">
+            </div>
+        </div>
+        <div class="infinite-scroll-wrapper position-relative w-100 overflow-hidden">
+            <div class="infinite-scroll-slider1 infinite-scroll-reverse d-flex align-items-center" id="scrollContent2">
+                <h2>Satisfaction Guarantee</h2>
+                <img src="assets/images/infinite-scroll/wheel.png" alt="wheel">
+                <h2>Craftmanship</h2>
+                <img src="assets/images/infinite-scroll/wheel.png" alt="wheel">
+                <h2>Wood Restoration</h2>
+                <img src="assets/images/infinite-scroll/wheel.png" alt="wheel">
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== Get A Free Quote Today ===================================== -->
+    <section class="get-a-free-quote-today-section">
+        <div class="container d-flex align-items-center justify-content-end">
+            <div
+                class="get-a-free-quote-today-container position-relative w-100 d-flex flex-column-reverse flex-xl-row justify-content-end">
+                <img src="assets/images/about/get-free-quote-person-img.png" alt="get-free-quote-person-img"
+                    class="get-free-quote-person-img position-absolute bottom-0">
+                <div
+                    class="get-a-free-quote-today-content-container d-flex flex-column align-items-center align-items-lg-start justify-content-center">
+                    <h2 class="mb-0 fade_up text-center text-lg-start" data-cursor="-opaque">Dream it, design it, build
+                        it — we turn your
+                        carpentry vision into reality.</h2>
+                    <p class="mb-0 fade_up text-center text-lg-start">From design to delivery, we craft your ideas into
+                        strong,
+                        beautiful woodwork made to stand the test of time!</p>
+                    <a href="get-your-quote.html"
+                        class="get-free-quote-btn position-relative get-a-free-quote-today-btn fade_up mx-0">
+                        <span class="btn-main position-absolute start-0 w-100">
+                            <span class="btn-text one d-flex align-items-center justify-content-center">Get A Free Quote
+                                Today</span>
+                            <span class="btn-text two d-flex align-items-center justify-content-center">Get A Free Quote
+                                Today</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== Footer ===================================== -->
+    <footer class="position-relative overflow-hidden">
+        <img src="assets/images/footer/footer-bg-img1.png" alt="footer-bg-img1"
+            class="footer-bg-img1 position-absolute">
+        <img src="assets/images/footer/footer-bg-img2.png" alt="footer-bg-img2"
+            class="footer-bg-img2 position-absolute">
+        <div class="container">
+            <div class="footer-container position-relative">
+                <div
+                    class="footer-top-container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+                    <div class="footer-top-left-container d-flex flex-column flex-lg-row align-items-center">
+                        <a href="index1.html" class="fade_up">
+                            <img src="assets/images/header/menu-header-logo.svg" alt="menu-header-logo"
+                                class="footer-logo">
+                        </a>
+                        <h2 class="mb-0 text-center fade_up">Together, we’ll build something extraordinary!</h2>
+                    </div>
+                    <div class="footer-social-icons d-flex align-items-center position-relative fade_up">
+                        <a href="https://www.facebook.com/" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle">
+                            <img src="assets/images/footer/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle position-absolute footer-instagram-icon">
+                            <img src="assets/images/footer/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://x.com/" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle position-absolute footer-x-icon">
+                            <img src="assets/images/footer/x.svg" alt="x-icon">
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank"
+                            class="d-flex align-items-center justify-content-center rounded-circle position-absolute footer-linkedin-icon">
+                            <img src="assets/images/footer/linked-in.svg" alt="linked-in">
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="footer-middle-container d-flex flex-column flex-xl-row align-items-center align-items-sm-start justify-content-center justify-content-lg-between">
+                    <div
+                        class="contact-us-quick-links-container d-flex flex-column flex-md-row align-items-start mx-0 mx-lg-auto mx-xl-0">
+                        <div class="footer-contact-us-container">
+                            <h3 class="mb-0">Contact Us</h3>
+                            <div class="contact-us-container d-flex flex-column">
+                                <div class="footer-contact-details-container d-flex align-items-center">
+                                    <div class="contact-icons d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/footer/location.svg" alt="location">
+                                    </div>
+                                    <a href="javascript:void(0);">251 Purple Sunset Avenue, South Bogota, BXY 92101</a>
+                                </div>
+                                <div class="footer-contact-details-container d-flex align-items-center">
+                                    <div class="contact-icons d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/footer/call.svg" alt="call">
+                                    </div>
+                                    <a href="tel:+571558904663">+57 155 890 4663</a>
+                                </div>
+                                <div class="footer-contact-details-container d-flex align-items-center">
+                                    <div class="contact-icons d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/footer/mail.svg" alt="mail">
+                                    </div>
+                                    <a href="mailto:book@homerakshak.com">book@homerakshak.com</a>
+                                </div>
+                                <div class="footer-contact-details-container d-flex align-items-center">
+                                    <div class="contact-icons d-flex align-items-center justify-content-center">
+                                        <img src="assets/images/footer/time.svg" alt="time">
+                                    </div>
+                                    <a href="javascript:void(0);">Mon - Sat: 7.00am - 5.30pm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="footer-quick-links-container d-flex flex-column flex-sm-row align-items-start justify-content-between">
+                            <div class="footer-quick-links-left-container">
+                                <h3 class="mb-0">Quick Links</h3>
+                                <div class="footer-quick-links d-flex flex-column">
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="index1.html">Home</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="about.html">About Us</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="services.html">Our Services</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="blog1.html">Latest News</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="faq.html">FAQs</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="contact.html">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-quick-links-right-container">
+                                <h3 class="mb-0">Our Services</h3>
+                                <div class="footer-quick-links d-flex flex-column">
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="wooden-furniture.html">Wooden Furniture</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="house-renovation.html">House Renovation</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="custom-carpentry.html">Custom Carpentry</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="wooden-floor.html">Wooden Floor</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="custom-cabin.html">Custom Cabin</a>
+                                    </div>
+                                    <div class="quick-links d-flex align-items-start">
+                                        <img src="assets/images/footer/footer-arrow.svg" alt="footer-arrow">
+                                        <a href="wood-utilities.html">Wood Utilities</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-newsletter-container mx-auto mx-xl-0">
+                        <h3 class="mb-0 text-center text-xl-start">Newsletter Subscription</h3>
+                        <p class="mb-0 text-center text-xl-start">Stay updated on our latest projects, tips,
+                            and offers. - no spam, just value.
+                        </p>
+                        <input type="email" name="email1" id="email1" placeholder="Your Mail*"
+                            class="footer-input-field">
+                        <a href="index1.html"
+                            class="get-free-quote-btn position-relative explore-our-services-btn subscribe-today-btn">
+                            <span class="btn-main position-absolute start-0 w-100">
+                                <span class="btn-text one d-flex align-items-center justify-content-center">Subscribe
+                                    Today</span>
+                                <span class="btn-text two d-flex align-items-center justify-content-center">Subscribe
+                                    Today</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="footer-bottom-container d-flex flex-column-reverse flex-xl-row align-items-center justify-content-between">
+                    <div class="footer-bottom-left-container">
+                        <p class="mb-0 text-center text-md-start">Copyright © Website. Designed and
+                            Developed by<a href="https://1.envato.market/website-portfolio" target="_blank">
+                                DevByNazmul</a>
+                        </p>
+                    </div>
+                    <div
+                        class="footer-bottom-right-container d-flex flex-wrap flex-sm-nowrap align-items-center justify-content-center justify-content-sm-start">
+                        <a href="index1.html">Privacy Policy</a>
+                        <div class="footer-dots-circle rounded-circle"></div>
+                        <a href="index1.html">Terms of Use</a>
+                        <div class="footer-dots-circle rounded-circle"></div>
+                        <a href="index1.html">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====================================== Bottom To Top Button ===================================== -->
+    <div id="scrollToTop">
+        <svg class="progress-ring position-absolute" width="60" height="60">
+            <circle class="progress-ring__circle" stroke="#EAE5E0" stroke-width="4" fill="transparent" r="26" cx="30"
+                cy="30">
+            </circle>
+        </svg>
+        <img src="assets/images/footer/footer-arrow.svg" alt="bottom-to-top-arrow"
+            class="bottom-to-top-arrow position-relative">
+    </div>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/smooth-scrolling.js"></script>
+    <script src="assets/js/magiccursor.js"></script>
+    <script src="assets/js/fancybox.umd.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
